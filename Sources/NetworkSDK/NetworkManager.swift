@@ -8,6 +8,8 @@ public class NetworkManager {
     private let apiKey = "909594533c98883408adef5d56143539"
     private let language = "en-US"
     
+    public var session: URLSession = URLSession.shared
+    
     private init() {}
     
     @available(iOS 13.0, *)
@@ -23,11 +25,12 @@ public class NetworkManager {
         var request = URLRequest(url: urlComponents.url!)
         request.httpMethod = "GET"
         
-        return URLSession.shared.dataTaskPublisher(for: request)
+        return session.dataTaskPublisher(for: request)
+            .subscribe(on: DispatchQueue.global(qos: .background)) // Perform network request on background thread
             .map(\.data)
             .decode(type: MovieResponse.self, decoder: JSONDecoder())
             .map { $0.results }
-            .receive(on: DispatchQueue.main)
+            .receive(on: DispatchQueue.main) // Ensure UI updates happen on the main thread
             .eraseToAnyPublisher()
     }
 }

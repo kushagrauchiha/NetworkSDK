@@ -1,0 +1,30 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios17.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NetworkSDK
+import Combine
+import Foundation
+@_exported import NetworkSDK
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct MovieResponse : Swift.Codable {
+  public let results: [NetworkSDK.Movie]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Movie : Swift.Codable {
+  public let id: Swift.Int
+  public let title: Swift.String
+  public let overview: Swift.String
+  public let posterPath: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class NetworkManager {
+  public static let shared: NetworkSDK.NetworkManager
+  public var session: Foundation.URLSession
+  @available(iOS 13.0, *)
+  public func fetchPopularMovies(page: Swift.Int = 1) -> Combine.AnyPublisher<[NetworkSDK.Movie], any Swift.Error>
+  @objc deinit
+}

@@ -22,14 +22,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ez3voV4U23as4b0SoWh4Z61H+qQhQQOyV72vQVCaj6M=
+			NwJlXwAXkWzVUaYkeGyrfx0qVowB0T3cNzhn2TgR5KU=
 			</data>
 		</dict>
 		<key>Modules/NetworkSDK.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eP4ORBHRXZJDouoHHse6cP3zFrgD4A0vmlrh9PIuDfI=
+			0GKJL7zZjwWZe+2VIi6EGFbRlLU2mFBOPnwk5AaK7IE=
 			</data>
 		</dict>
 		<key>Modules/NetworkSDK.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
@@ -43,28 +43,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eP4ORBHRXZJDouoHHse6cP3zFrgD4A0vmlrh9PIuDfI=
+			0GKJL7zZjwWZe+2VIi6EGFbRlLU2mFBOPnwk5AaK7IE=
 			</data>
 		</dict>
 		<key>Modules/NetworkSDK.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ody4+8PgH8jeU8YIC408Znpi2t9XhbrTFbovo3t4dgA=
+			61qOWZDLYNeduIfRRSCmGk9kEfyqAnOZwAti/M/Gjfk=
 			</data>
 		</dict>
 		<key>Modules/NetworkSDK.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ez3voV4U23as4b0SoWh4Z61H+qQhQQOyV72vQVCaj6M=
+			NwJlXwAXkWzVUaYkeGyrfx0qVowB0T3cNzhn2TgR5KU=
 			</data>
 		</dict>
 		<key>Modules/NetworkSDK.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0n2TCZcwuXIoVMGVQrNYetwk8c2BO9+fV0mTEc1C/DI=
+			mLcRsU4LHLJ1PMDbMP08sBjRfWXa15mBpsqCY3vwako=
 			</data>
 		</dict>
 		<key>Modules/NetworkSDK.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
@@ -78,14 +78,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0n2TCZcwuXIoVMGVQrNYetwk8c2BO9+fV0mTEc1C/DI=
+			mLcRsU4LHLJ1PMDbMP08sBjRfWXa15mBpsqCY3vwako=
 			</data>
 		</dict>
 		<key>Modules/NetworkSDK.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f88ikEDXIUhAftpNBX+vw0bt56nmd/Y/Dqw/eOdy2jA=
+			K+qsb5/tced8rXZK2Eall/SBKq1XSpiHulueY1ljA+A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

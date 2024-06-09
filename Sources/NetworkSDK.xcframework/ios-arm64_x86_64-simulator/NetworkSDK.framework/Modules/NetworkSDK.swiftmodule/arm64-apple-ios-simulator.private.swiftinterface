@@ -8,23 +8,3 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct MovieResponse : Swift.Codable {
-  public let results: [NetworkSDK.Movie]
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct Movie : Swift.Codable {
-  public let id: Swift.Int
-  public let title: Swift.String
-  public let overview: Swift.String
-  public let posterPath: Swift.String?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-@_hasMissingDesignatedInitializers public class NetworkManager {
-  public static let shared: NetworkSDK.NetworkManager
-  public var session: Foundation.URLSession
-  @available(iOS 13.0, *)
-  public func fetchPopularMovies(page: Swift.Int = 1) -> Combine.AnyPublisher<[NetworkSDK.Movie], any Swift.Error>
-  @objc deinit
-}

@@ -9,424 +9,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "NetworkSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "MovieResponse",
-        "printedName": "MovieResponse",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "results",
-            "printedName": "results",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[NetworkSDK.Movie]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Movie",
-                    "printedName": "NetworkSDK.Movie",
-                    "usr": "s:10NetworkSDK5MovieV"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10NetworkSDK13MovieResponseV7resultsSayAA0C0VGvp",
-            "mangledName": "$s10NetworkSDK13MovieResponseV7resultsSayAA0C0VGvp",
-            "moduleName": "NetworkSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[NetworkSDK.Movie]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Movie",
-                        "printedName": "NetworkSDK.Movie",
-                        "usr": "s:10NetworkSDK5MovieV"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10NetworkSDK13MovieResponseV7resultsSayAA0C0VGvg",
-                "mangledName": "$s10NetworkSDK13MovieResponseV7resultsSayAA0C0VGvg",
-                "moduleName": "NetworkSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MovieResponse",
-                "printedName": "NetworkSDK.MovieResponse",
-                "usr": "s:10NetworkSDK13MovieResponseV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10NetworkSDK13MovieResponseV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s10NetworkSDK13MovieResponseV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "NetworkSDK",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10NetworkSDK13MovieResponseV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s10NetworkSDK13MovieResponseV6encode2toys7Encoder_p_tKF",
-            "moduleName": "NetworkSDK",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:10NetworkSDK13MovieResponseV",
-        "mangledName": "$s10NetworkSDK13MovieResponseV",
-        "moduleName": "NetworkSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Movie",
-        "printedName": "Movie",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "id",
-            "printedName": "id",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10NetworkSDK5MovieV2idSivp",
-            "mangledName": "$s10NetworkSDK5MovieV2idSivp",
-            "moduleName": "NetworkSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10NetworkSDK5MovieV2idSivg",
-                "mangledName": "$s10NetworkSDK5MovieV2idSivg",
-                "moduleName": "NetworkSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "title",
-            "printedName": "title",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10NetworkSDK5MovieV5titleSSvp",
-            "mangledName": "$s10NetworkSDK5MovieV5titleSSvp",
-            "moduleName": "NetworkSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10NetworkSDK5MovieV5titleSSvg",
-                "mangledName": "$s10NetworkSDK5MovieV5titleSSvg",
-                "moduleName": "NetworkSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "overview",
-            "printedName": "overview",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10NetworkSDK5MovieV8overviewSSvp",
-            "mangledName": "$s10NetworkSDK5MovieV8overviewSSvp",
-            "moduleName": "NetworkSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10NetworkSDK5MovieV8overviewSSvg",
-                "mangledName": "$s10NetworkSDK5MovieV8overviewSSvg",
-                "moduleName": "NetworkSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "posterPath",
-            "printedName": "posterPath",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10NetworkSDK5MovieV10posterPathSSSgvp",
-            "mangledName": "$s10NetworkSDK5MovieV10posterPathSSSgvp",
-            "moduleName": "NetworkSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10NetworkSDK5MovieV10posterPathSSSgvg",
-                "mangledName": "$s10NetworkSDK5MovieV10posterPathSSSgvg",
-                "moduleName": "NetworkSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Movie",
-                "printedName": "NetworkSDK.Movie",
-                "usr": "s:10NetworkSDK5MovieV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10NetworkSDK5MovieV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s10NetworkSDK5MovieV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "NetworkSDK",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10NetworkSDK5MovieV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s10NetworkSDK5MovieV6encode2toys7Encoder_p_tKF",
-            "moduleName": "NetworkSDK",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:10NetworkSDK5MovieV",
-        "mangledName": "$s10NetworkSDK5MovieV",
-        "moduleName": "NetworkSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
+        "moduleName": "NetworkSDK"
       },
       {
         "kind": "Import",
@@ -444,210 +27,6 @@
         "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "NetworkSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "NetworkManager",
-        "printedName": "NetworkManager",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NetworkManager",
-                "printedName": "NetworkSDK.NetworkManager",
-                "usr": "s:10NetworkSDK0A7ManagerC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10NetworkSDK0A7ManagerC6sharedACvpZ",
-            "mangledName": "$s10NetworkSDK0A7ManagerC6sharedACvpZ",
-            "moduleName": "NetworkSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NetworkManager",
-                    "printedName": "NetworkSDK.NetworkManager",
-                    "usr": "s:10NetworkSDK0A7ManagerC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10NetworkSDK0A7ManagerC6sharedACvgZ",
-                "mangledName": "$s10NetworkSDK0A7ManagerC6sharedACvgZ",
-                "moduleName": "NetworkSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "session",
-            "printedName": "session",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "URLSession",
-                "printedName": "Foundation.URLSession",
-                "usr": "c:objc(cs)NSURLSession"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10NetworkSDK0A7ManagerC7sessionSo12NSURLSessionCvp",
-            "mangledName": "$s10NetworkSDK0A7ManagerC7sessionSo12NSURLSessionCvp",
-            "moduleName": "NetworkSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "URLSession",
-                    "printedName": "Foundation.URLSession",
-                    "usr": "c:objc(cs)NSURLSession"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10NetworkSDK0A7ManagerC7sessionSo12NSURLSessionCvg",
-                "mangledName": "$s10NetworkSDK0A7ManagerC7sessionSo12NSURLSessionCvg",
-                "moduleName": "NetworkSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "URLSession",
-                    "printedName": "Foundation.URLSession",
-                    "usr": "c:objc(cs)NSURLSession"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10NetworkSDK0A7ManagerC7sessionSo12NSURLSessionCvs",
-                "mangledName": "$s10NetworkSDK0A7ManagerC7sessionSo12NSURLSessionCvs",
-                "moduleName": "NetworkSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10NetworkSDK0A7ManagerC7sessionSo12NSURLSessionCvM",
-                "mangledName": "$s10NetworkSDK0A7ManagerC7sessionSo12NSURLSessionCvM",
-                "moduleName": "NetworkSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "fetchPopularMovies",
-            "printedName": "fetchPopularMovies(page:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AnyPublisher",
-                "printedName": "Combine.AnyPublisher<[NetworkSDK.Movie], any Swift.Error>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[NetworkSDK.Movie]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Movie",
-                        "printedName": "NetworkSDK.Movie",
-                        "usr": "s:10NetworkSDK5MovieV"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Error",
-                    "printedName": "any Swift.Error",
-                    "usr": "s:s5ErrorP"
-                  }
-                ],
-                "usr": "s:7Combine12AnyPublisherV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "hasDefaultArg": true,
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10NetworkSDK0A7ManagerC18fetchPopularMovies4page7Combine12AnyPublisherVySayAA5MovieVGs5Error_pGSi_tF",
-            "mangledName": "$s10NetworkSDK0A7ManagerC18fetchPopularMovies4page7Combine12AnyPublisherVySayAA5MovieVGs5Error_pGSi_tF",
-            "moduleName": "NetworkSDK",
-            "intro_iOS": "13.0",
-            "declAttributes": [
-              "AccessControl",
-              "Available"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:10NetworkSDK0A7ManagerC",
-        "mangledName": "$s10NetworkSDK0A7ManagerC",
-        "moduleName": "NetworkSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true
       }
     ],
     "json_format_version": 8
@@ -656,42 +35,70 @@
     {
       "filePath": "\/Users\/kushagra\/Downloads\/DevrevAssignment\/Framework\/NetworkSDK\/NetworkSDK\/Movie.swift",
       "kind": "StringLiteral",
-      "offset": 387,
+      "offset": 395,
       "length": 13,
       "value": "\"poster_path\""
     },
     {
       "filePath": "\/Users\/kushagra\/Downloads\/DevrevAssignment\/Framework\/NetworkSDK\/NetworkSDK\/Movie.swift",
       "kind": "StringLiteral",
-      "offset": 387,
+      "offset": 437,
+      "length": 15,
+      "value": "\"backdrop_path\""
+    },
+    {
+      "filePath": "\/Users\/kushagra\/Downloads\/DevrevAssignment\/Framework\/NetworkSDK\/NetworkSDK\/Movie.swift",
+      "kind": "StringLiteral",
+      "offset": 395,
       "length": 13,
       "value": "\"poster_path\""
     },
     {
+      "filePath": "\/Users\/kushagra\/Downloads\/DevrevAssignment\/Framework\/NetworkSDK\/NetworkSDK\/Movie.swift",
+      "kind": "StringLiteral",
+      "offset": 437,
+      "length": 15,
+      "value": "\"backdrop_path\""
+    },
+    {
       "filePath": "\/Users\/kushagra\/Downloads\/DevrevAssignment\/Framework\/NetworkSDK\/NetworkSDK\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 162,
+      "offset": 148,
       "length": 30,
       "value": "\"https:\/\/api.themoviedb.org\/3\""
     },
     {
       "filePath": "\/Users\/kushagra\/Downloads\/DevrevAssignment\/Framework\/NetworkSDK\/NetworkSDK\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 218,
+      "offset": 204,
       "length": 34,
       "value": "\"909594533c98883408adef5d56143539\""
     },
     {
       "filePath": "\/Users\/kushagra\/Downloads\/DevrevAssignment\/Framework\/NetworkSDK\/NetworkSDK\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 280,
+      "offset": 266,
       "length": 7,
       "value": "\"en-US\""
     },
     {
       "filePath": "\/Users\/kushagra\/Downloads\/DevrevAssignment\/Framework\/NetworkSDK\/NetworkSDK\/NetworkManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 455,
+      "offset": 346,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kushagra\/Downloads\/DevrevAssignment\/Framework\/NetworkSDK\/NetworkSDK\/NetworkManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1122,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kushagra\/Downloads\/DevrevAssignment\/Framework\/NetworkSDK\/NetworkSDK\/NetworkManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1898,
       "length": 1,
       "value": "1"
     }
